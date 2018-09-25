@@ -22,14 +22,7 @@ Provide online self reimbursement system.
 
 autoNumeric is a standalone Javascript library that provides live *as-you-type* formatting for international numbers and currencies.
 
-The latest stable branch is always on `master`. Currently this is version [4.2.*](https://github.com/autoNumeric/autoNumeric/tree/master).<br>
-If you want to try the new features, you can check out the latest development version in the `next` [branch](https://github.com/autoNumeric/autoNumeric/tree/next).<br>
-That `next` branch can see changes in the API (check the [semver](http://semver.org/)), but is always fully tested for regressions.<br>
-<br>
-For older stable versions, please take a look [here](#older-versions).<br>
-Alternatively, you can **use our [guide](doc/HowToUpgradeToV4.md) for upgrading from version `1.9`/`2` to version `4`.**<br><br>
-Finally, you can check what could be the next features coming to autoNumeric on the [projects](https://github.com/autoNumeric/autoNumeric/projects) page *(feel free to [participate](#how-to-contribute)!)*.
-
+The latest stable branch is always on `master`.<br>
 #### Highlights
 autoNumeric main features are :
 - **Easy** to use and configure
@@ -60,7 +53,7 @@ anElement.french()
          .formSubmitJsonNumericString(callback)
          .clear();
 ```
-- Supports most **international** numeric formats and currencies<br>*(If the one you use is not supported yet, open an [issue](https://github.com/autoNumeric/autoNumeric/issues/new) and we'll add it as soon as possible!)*
+- Supports most **international** numeric formats and currencies<br>*(If the one you use is not supported yet, open an [issue](https://github.com/smile-xhm/autoNumeric_reimbs/issues) and we'll add it as soon as possible!)*
 - The mobile Android Chrome browser is partially supported
 
 *And also:*
